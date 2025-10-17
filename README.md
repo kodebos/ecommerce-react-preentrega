@@ -1,16 +1,84 @@
-# React + Vite
+# 🎮 GamerStore - eCommerce de Consolas y Videojuegos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto desarrollado como **preentrega del curso de React + Vite**, correspondiente a la materia **Desarrollo Web / eCommerce**.  
+El sitio simula una tienda online llamada **Ko-Gamer**, dedicada a la venta de consolas y videojuegos físicos (CDs).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologías utilizadas
 
-## React Compiler
+- ⚛️ **React + Vite**  
+- 🧭 **React Router DOM** (rutas dinámicas y protegidas)  
+- 💅 **CSS personalizado** con modo oscuro y estilo neón  
+- 📦 **useState** y **useEffect** para gestión de estado  
+- 🧩 **JSON local** como fuente de datos (simulando una API)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛒 Funcionalidades principales
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### ✅ Listado de productos
+- Componente `Productos.jsx` que muestra el **catálogo de consolas y videojuegos**.  
+- Se cargan los datos desde `productos.json` utilizando `useEffect`.  
+- Incluye estado de carga y manejo de errores.
+
+### ✅ Carrito de compras
+- Implementado con `useState` en `Productos.jsx` y `Carrito.jsx`.  
+- Permite agregar productos, vaciar carrito y calcular total.  
+- Al presionar “Pagar” redirige a `/pagar`.
+
+### ✅ Login y rutas protegidas
+- El usuario debe **iniciar sesión** antes de poder pagar.  
+- Se maneja autenticación básica con `useState` (`isAuthenticated`).  
+- El componente `RutaProtegida.jsx` restringe el acceso a `/pagar`.
+
+### ✅ Navegación y rutas dinámicas
+- Implementadas con **React Router DOM**.  
+- Cada producto tiene una página de **detalle** (`/productos/:categoria/:id`).  
+- Incluye rutas protegidas, rutas dinámicas y navegación con `Link`.
+
+### ✅ Página de inicio
+- Componente `Inicio.jsx` con banner de bienvenida y productos destacados.  
+- Estilo inspirado en tiendas gamer como CompraGamer.
+
+### ✅ Página de servicios
+- Explica los **servicios técnicos y asesoramiento** de la tienda.  
+
+### ✅ Diseño y estética
+- Modo **oscuro con estilo neón** (azul y violeta).  
+- Diseño responsive con grillas (`grid-template-columns`).  
+- Fuente *Orbitron* de Google Fonts para un look gamer.
+
+---
+
+## 🧠 Hooks utilizados
+
+- `useState` → manejo del carrito, autenticación, formulario de login y productos.  
+- `useEffect` → carga inicial del catálogo desde JSON.  
+
+---
+
+## 🌐 Simulación de API
+
+Los productos se obtienen desde un archivo local `productos.json`, que simula una API REST.  
+Cada producto incluye:  
+- `id`  
+- `nombre`  
+- `descripcion`  
+- `precio`  
+- `avatar` (imagen)  
+- `categoria`
+
+---
+
+## 💡 Cómo ejecutar el proyecto
+
+```bash
+# Instalar dependencias
+npm install
+
+# Iniciar servidor de desarrollo
+npm run dev
+
+# Abrir en el navegador
+http://localhost:5173/

@@ -1,0 +1,52 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "PlayStation 5",
+      "descripcion": "Consola Sony PS5 con control DualSense y SSD ultrarrápido.",
+      "precio": 500,
+      "avatar": "/playstation5.png",
+      "categoria": "consolas"
+    },
+    {
+      "id": 2,
+      "nombre": "PlayStation 4",
+      "descripcion": "Consola PlayStation 4 Slim con 1TB de almacenamiento.",
+      "precio": 275,
+      "avatar": "/playstation4.png",
+      "categoria": "consolas"
+    },
+    {
+      "id": 3,
+      "nombre": "Nintendo Switch OLED",
+      "descripcion": "Versión OLED de la consola híbrida de Nintendo.",
+      "precio": 334.95,
+      "avatar": "/nintendoswitch.png",
+      "categoria": "consolas"
+    },
+    {
+      "id": 4,
+      "nombre": "God of War Ragnarök (PS5)",
+      "descripcion": "Juego exclusivo de PlayStation con gráficos impresionantes.",
+      "precio": 59.99,
+      "avatar": "/godofwarps5.png",
+      "categoria": "videojuegos"
+    },
+    {
+      "id": 5,
+      "nombre": "Halo Infinite (Xbox)",
+      "descripcion": "Nueva entrega del clásico shooter de Microsoft.",
+      "precio": 54.99,
+      "avatar": "/haloinfinite.png",
+      "categoria": "videojuegos"
+    },
+    {
+      "id": 6,
+      "nombre": "The Legend of Zelda: Tears of the Kingdom",
+      "descripcion": "Aventura épica exclusiva para Nintendo Switch.",
+      "precio": 79.99,
+      "avatar": "/zeldanintendo.webp",
+      "categoria": "videojuegos"
+    }
+  ]
+}

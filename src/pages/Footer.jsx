@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer>
         <hr />
-        <p>Desarrolado por: @kobos</p>
+        <p>Desarrolado por: @kodebos</p>
     </footer>
   )
 }

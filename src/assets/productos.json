@@ -4,7 +4,7 @@
       "id": 1,
       "nombre": "PlayStation 5",
       "descripcion": "Consola Sony PS5 con control DualSense y SSD ultrarrápido.",
-      "precio": 500,
+      "precio": 1500000,
       "avatar": "/playstation5.png",
       "categoria": "consolas"
     },
@@ -12,7 +12,7 @@
       "id": 2,
       "nombre": "PlayStation 4",
       "descripcion": "Consola PlayStation 4 Slim con 1TB de almacenamiento.",
-      "precio": 275,
+      "precio": 450000,
       "avatar": "/playstation4.png",
       "categoria": "consolas"
     },
@@ -20,7 +20,7 @@
       "id": 3,
       "nombre": "Nintendo Switch 2",
       "descripcion": "Versión OLED de la consola híbrida de Nintendo.",
-      "precio": 334.95,
+      "precio": 1200000,
       "avatar": "/nintendoswitch2.png",
       "categoria": "consolas"
     },
@@ -28,7 +28,7 @@
       "id": 4,
       "nombre": "God of War Ragnarök (PS5)",
       "descripcion": "Juego exclusivo de PlayStation con gráficos impresionantes.",
-      "precio": 59.99,
+      "precio": 129000,
       "avatar": "/godofwarps5.png",
       "categoria": "videojuegos"
     },
@@ -36,7 +36,7 @@
       "id": 5,
       "nombre": "Halo Infinite (Xbox)",
       "descripcion": "Nueva entrega del clásico shooter de Microsoft.",
-      "precio": 54.99,
+      "precio": 120000,
       "avatar": "/haloinfinite.png",
       "categoria": "videojuegos"
     },
@@ -44,9 +44,57 @@
       "id": 6,
       "nombre": "The Legend of Zelda: Tears of the Kingdom",
       "descripcion": "Aventura épica exclusiva para Nintendo Switch.",
-      "precio": 79.99,
+      "precio": 190000,
       "avatar": "/zeldanintendo.webp",
       "categoria": "videojuegos"
+    },
+    {
+      "id": 7,
+      "nombre": "Notebook Lenovo Legion",
+      "descripcion": "Intel Core i9 con 16GB Ram y RTX 4070 8GB.",
+      "precio": 2700000,
+      "avatar": "/legionlaptop.webp",
+      "categoria": "consolas"
+    },
+    {
+      "id": 8,
+      "nombre": "Auriculares Hyperx Cloud Alpha",
+      "descripcion": "Compatibles con PC, PS4, PS5, Xbox One y Nintendo Switch. Cancelación de ruido.",
+      "precio": 89000,
+      "avatar": "/auriculareshyperx.png",
+      "categoria": "perifericos"
+    },
+    {
+      "id": 9,
+      "nombre": "Mouse Logitech G502",
+      "descripcion": "DPI personalizado (100-16,0000), retroiluminación y programación de todos lso botones.",
+      "precio": 78000,
+      "avatar": "/mouselogitech.png",
+      "categoria": "perifericos"
+    },
+    {
+      "id": 10,
+      "nombre": "F1 25 (PS5)",
+      "descripcion": "Lanzamiento del nuevo juego para los aficionados de la Formula 1.",
+      "precio": 124000,
+      "avatar": "/f125ps5.png",
+      "categoria": "videojuegos"
+    },
+    {
+      "id": 11,
+      "nombre": "Xbox Series S",
+      "descripcion": "Consola Digital. 1TB de almacenamiento.",
+      "precio": 149999,
+      "avatar": "/xboxseriess.png",
+      "categoria": "consolas"
+    },
+    {
+      "id": 12,
+      "nombre": "Teclado Razer BlackWidow Chroma - Elite",
+      "descripcion": "Teclado mecanico, retroiluminado RGB, configurandolo a tu gusto.",
+      "precio": 102000,
+      "avatar": "/tecladorazer.webp",
+      "categoria": "perifericos"
     }
   ]
 }
